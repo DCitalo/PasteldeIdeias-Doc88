@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dabca5cf8a3c5b4b149f67b17a4e2064",
+    "revision": "dd9cded336c563f432aca7f422001356",
     "url": "/PasteldeIdeias-Doc88/index.html"
   },
   {
-    "revision": "03b9690699f694afd847",
-    "url": "/PasteldeIdeias-Doc88/static/js/2.1cf21eab.chunk.js"
+    "revision": "93308fcb4ac5f1f1192f",
+    "url": "/PasteldeIdeias-Doc88/static/js/2.e5d97cfc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/PasteldeIdeias-Doc88/static/js/2.1cf21eab.chunk.js.LICENSE.txt"
+    "url": "/PasteldeIdeias-Doc88/static/js/2.e5d97cfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80d4ae8f43d0e4561090",
-    "url": "/PasteldeIdeias-Doc88/static/js/main.8a7faf20.chunk.js"
+    "revision": "04ce09958d8de94b50ff",
+    "url": "/PasteldeIdeias-Doc88/static/js/main.f4176282.chunk.js"
   },
   {
     "revision": "8c52f7fef9c3928b01cd",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "05c93ffb52c82ca49b88683427b2335e",
     "url": "/PasteldeIdeias-Doc88/static/media/Logo.05c93ffb.svg"
+  },
+  {
+    "revision": "ffb1739c4744bc08dd3b08e6b26ffc0e",
+    "url": "/PasteldeIdeias-Doc88/static/media/default_bebidas.ffb1739c.png"
   },
   {
     "revision": "de652cd2995ee0495c1002c63538c2eb",

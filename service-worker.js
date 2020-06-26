@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PasteldeIdeias-Doc88/precache-manifest.5748584dbc2030511311e344f4c1ec55.js"
+  "/PasteldeIdeias-Doc88/precache-manifest.de95b13ba0ce71ef53760e691c58d27e.js"
 );
 
 self.addEventListener('message', (event) => {
