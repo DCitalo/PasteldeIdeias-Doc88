@@ -7,6 +7,7 @@ function MainTheme({ children }) {
     <React.Fragment>
       <Normalize />
       <GlobalStyles />
+      <div className="backgroundGradient"></div>
       {children}
     </React.Fragment>
   );

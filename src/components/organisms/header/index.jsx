@@ -31,8 +31,9 @@ let ContainerHeader = styled(Container)`
   .logo {
     position: relative;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     display: block;
+    width: 90%;
   }
 `;
 

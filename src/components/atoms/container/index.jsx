@@ -1,6 +1,7 @@
 import React from "react";
 import breakpoints from "../../../styles/breakpoints";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const percent = (props) => (props.percent ? (props) => props.percent : 100);
 const tbPercent = (props) =>
@@ -15,7 +16,7 @@ const margin = (props) => (props.marginZero ? "0" : "0 auto");
 let Container = (props) => {
   let component;
 
-  if (props.tag && props.tag !== "a") {
+  if (props.tag && props.tag !== "a" && props.tag !== "form") {
     const Tag = props.tag;
     component = <Tag className={props.className}>{props.children}</Tag>;
   } else if (props.tag === "a") {
@@ -25,6 +26,20 @@ let Container = (props) => {
     const target = props.target;
     component = (
       <Tag className={props.className} rel={rel} href={link} target={target}>
+        {props.children}
+      </Tag>
+    );
+  } else if (props.tag === "form") {
+    const Tag = props.tag;
+    const rel = props.rel;
+    const submit = props.onSubmit;
+    component = (
+      <Tag
+        id={props.id}
+        className={props.className}
+        rel={rel}
+        onSubmit={submit}
+      >
         {props.children}
       </Tag>
     );
@@ -53,5 +68,23 @@ Container = styled(Container)`
     display: ${tbDisplay};
   }
 `;
+
+Container.propTypes = {
+  percent: PropTypes.string,
+  tbPercent: PropTypes.string,
+  mbPercent: PropTypes.string,
+  flex: PropTypes.bool,
+  fw: PropTypes.bool,
+  tbHide: PropTypes.string,
+  marginZero: PropTypes.string,
+  className: PropTypes.string,
+  colorSecundary: PropTypes.bool,
+  children: PropTypes.node,
+  tag: PropTypes.elementType,
+  link: PropTypes.string,
+  target: PropTypes.string,
+  rel: PropTypes.string,
+  onSubmit: PropTypes.func,
+};
 
 export default Container;

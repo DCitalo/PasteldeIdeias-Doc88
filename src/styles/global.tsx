@@ -15,6 +15,26 @@ const GlobalStyle = createGlobalStyle`
     img {
         max-width: 100%;
     }
+    body{
+        background: url(/images/pattern.png);
+    }
+    html, body, #root {
+        height: 100%
+    }
+    .backgroundGradient{
+        width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    z-index: -2;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 85%, rgba(255,255,255,0) 100%);
+    transform: translate(-50%);
+    }
+    ul,li,ol{
+        list-style:none;
+        padding-left: 0;
+    }
 `;
 
 export const AccessibilityStyle = createGlobalStyle<{
