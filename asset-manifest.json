@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.js": "/PasteldeIdeias-Doc88/static/js/main.f8c83cdd.chunk.js",
-    "main.js.map": "/PasteldeIdeias-Doc88/static/js/main.f8c83cdd.chunk.js.map",
+    "main.js": "/PasteldeIdeias-Doc88/static/js/main.8a7faf20.chunk.js",
+    "main.js.map": "/PasteldeIdeias-Doc88/static/js/main.8a7faf20.chunk.js.map",
     "runtime-main.js": "/PasteldeIdeias-Doc88/static/js/runtime-main.6af785a3.js",
     "runtime-main.js.map": "/PasteldeIdeias-Doc88/static/js/runtime-main.6af785a3.js.map",
-    "static/js/2.8e79cd4c.chunk.js": "/PasteldeIdeias-Doc88/static/js/2.8e79cd4c.chunk.js",
-    "static/js/2.8e79cd4c.chunk.js.map": "/PasteldeIdeias-Doc88/static/js/2.8e79cd4c.chunk.js.map",
+    "static/js/2.1cf21eab.chunk.js": "/PasteldeIdeias-Doc88/static/js/2.1cf21eab.chunk.js",
+    "static/js/2.1cf21eab.chunk.js.map": "/PasteldeIdeias-Doc88/static/js/2.1cf21eab.chunk.js.map",
     "index.html": "/PasteldeIdeias-Doc88/index.html",
-    "precache-manifest.3a4195fc9c60b85c55cd57e0126c84cf.js": "/PasteldeIdeias-Doc88/precache-manifest.3a4195fc9c60b85c55cd57e0126c84cf.js",
+    "precache-manifest.5748584dbc2030511311e344f4c1ec55.js": "/PasteldeIdeias-Doc88/precache-manifest.5748584dbc2030511311e344f4c1ec55.js",
     "service-worker.js": "/PasteldeIdeias-Doc88/service-worker.js",
-    "static/js/2.8e79cd4c.chunk.js.LICENSE.txt": "/PasteldeIdeias-Doc88/static/js/2.8e79cd4c.chunk.js.LICENSE.txt",
-    "static/media/Logo.svg": "/PasteldeIdeias-Doc88/static/media/Logo.05c93ffb.svg"
+    "static/js/2.1cf21eab.chunk.js.LICENSE.txt": "/PasteldeIdeias-Doc88/static/js/2.1cf21eab.chunk.js.LICENSE.txt",
+    "static/media/Logo.svg": "/PasteldeIdeias-Doc88/static/media/Logo.05c93ffb.svg",
+    "static/media/default_comida.png": "/PasteldeIdeias-Doc88/static/media/default_comida.de652cd2.png",
+    "static/media/pasteis-img.png": "/PasteldeIdeias-Doc88/static/media/pasteis-img.f3b1a6b5.png",
+    "static/media/pattern.png": "/PasteldeIdeias-Doc88/static/media/pattern.b75e252c.png",
+    "static/media/wave.svg": "/PasteldeIdeias-Doc88/static/media/wave.119f526c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6af785a3.js",
-    "static/js/2.8e79cd4c.chunk.js",
-    "static/js/main.f8c83cdd.chunk.js"
+    "static/js/2.1cf21eab.chunk.js",
+    "static/js/main.8a7faf20.chunk.js"
   ]
 }
