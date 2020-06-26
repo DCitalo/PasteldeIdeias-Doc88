@@ -9,6 +9,9 @@ import ItemCardapio from "../../../models/itemCardapio";
 import Swal from "sweetalert2";
 import PropTypes from "prop-types";
 import breakpoints from "../../../styles/breakpoints";
+import DefaultImgComida from "./default_comida.png";
+import DefaultImgBebida from "./default_comida.png";
+import Pasteis from "./pasteis-img.png";
 
 let Form = (props) => {
   const opt1 = "Comida",
@@ -63,7 +66,6 @@ let Form = (props) => {
     },
     ValidaEadicionaItem = (e) => {
       e.preventDefault();
-      console.log(opt);
 
       if (titulo.length < 3 || titulo.length > 60) {
         Swal.fire({
@@ -97,11 +99,11 @@ let Form = (props) => {
         const defaultFile =
           opt === opt1
             ? {
-                url: "/images/default_comida.png",
+                url: DefaultImgComida,
                 name: "defaultImg-Comida",
               }
             : {
-                url: "/images/default_bebidas.png",
+                url: DefaultImgBebida,
                 name: "defaultImg-Bebida",
               };
         adicionaItem(opt, titulo, sabor, valor, desc, defaultFile);
@@ -109,7 +111,6 @@ let Form = (props) => {
         adicionaItem(opt, titulo, sabor, valor, desc, file);
       }
       limpaFormulario();
-      console.log(opt);
     };
   return (
     <ContainerForm tag="form" percent="75" onSubmit={ValidaEadicionaItem}>
@@ -195,7 +196,7 @@ let ContainerForm = styled(Container)`
   &::before {
     content: "";
     width: 291px;
-    background-image: url(/images/pasteis-img.png);
+    background-image: url(${Pasteis});
     position: absolute;
     height: 274px;
     background-repeat: no-repeat;

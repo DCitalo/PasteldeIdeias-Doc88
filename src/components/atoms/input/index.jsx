@@ -2,6 +2,7 @@ import React from "react";
 import colors from "../../../styles/colors";
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import UploadIcon from "./upload-image.png";
 
 let Input = (props) => {
   let component;
@@ -36,7 +37,7 @@ let Input = (props) => {
             <React.Fragment>
               <img
                 className="icon"
-                src="/images/upload-image.png"
+                src={UploadIcon}
                 alt="Icone de subir arquivos"
               />
               {props.label}

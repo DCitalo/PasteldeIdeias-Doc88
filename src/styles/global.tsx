@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import Pattern from "./pattern.png";
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -16,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
         max-width: 100%;
     }
     body{
-        background: url(/images/pattern.png);
+        background: url(${Pattern});
     }
     html, body, #root {
         height: 100%

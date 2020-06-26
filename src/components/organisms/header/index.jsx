@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Container from "../../atoms/container";
 import Logo from "./Logo.svg";
+import Wave from "./wave.svg";
 import colors from "../../../styles/colors";
 
 let Header = () => {
@@ -21,7 +22,7 @@ let ContainerHeader = styled(Container)`
   &:after {
     content: "";
     width: 100%;
-    background-image: url(/images/wave.svg);
+    background-image: url(${Wave});
     position: absolute;
     min-height: 250px;
     background-repeat: no-repeat;
