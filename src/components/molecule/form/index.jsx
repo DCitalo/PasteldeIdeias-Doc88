@@ -10,7 +10,7 @@ import Swal from "sweetalert2";
 import PropTypes from "prop-types";
 import breakpoints from "../../../styles/breakpoints";
 import DefaultImgComida from "./default_comida.png";
-import DefaultImgBebida from "./default_comida.png";
+import DefaultImgBebida from "./default_bebidas.png";
 import Pasteis from "./pasteis-img.png";
 
 let Form = (props) => {
